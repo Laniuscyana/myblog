@@ -1,0 +1,58 @@
+2023-03-01 12:05:28.329  INFO 7528 --- [restartedMain] com.wangw.BlogApplication                : Starting BlogApplication using Java 1.8.0_311 on LAPTOP-DINIIEAV with PID 7528 (F:\java\myblog\blog\target\classes started by Revail in F:\java\myblog)
+2023-03-01 12:05:28.333 DEBUG 7528 --- [restartedMain] com.wangw.BlogApplication                : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-03-01 12:05:28.333  INFO 7528 --- [restartedMain] com.wangw.BlogApplication                : The following 1 profile is active: "dev"
+2023-03-01 12:05:28.369  INFO 7528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-01 12:05:28.370  INFO 7528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-01 12:05:28.917  INFO 7528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-01 12:05:28.977  INFO 7528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+2023-03-01 12:05:29.654  INFO 7528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-01 12:05:29.661  INFO 7528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-01 12:05:29.662  INFO 7528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-01 12:05:29.779  INFO 7528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-01 12:05:29.779  INFO 7528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1409 ms
+2023-03-01 12:05:29.941  INFO 7528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-01 12:05:29.977  INFO 7528 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-03-01 12:05:30.104  INFO 7528 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-01 12:05:30.195  INFO 7528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-01 12:05:31.236  INFO 7528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-01 12:05:31.254  INFO 7528 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-01 12:05:31.916  INFO 7528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-01 12:05:31.922  INFO 7528 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-01 12:05:33.386  WARN 7528 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-01 12:05:33.584  INFO 7528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-01 12:05:33.943  INFO 7528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-01 12:05:33.975  INFO 7528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-01 12:05:33.985  INFO 7528 --- [restartedMain] com.wangw.BlogApplication                : Started BlogApplication in 6.022 seconds (JVM running for 7.183)
+2023-03-01 12:05:41.733  INFO 7528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-01 12:05:41.733  INFO 7528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-01 12:05:41.735  INFO 7528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-01 12:05:41.767  INFO 7528 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2023-03-01 12:05:41.860  WARN 7528 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2023-03-01 12:05:41.870  WARN 7528 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2023-03-01 12:05:41.886  INFO 7528 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Result : {}index
+2023-03-01 12:05:42.690  INFO 7528 --- [http-nio-8080-exec-3] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-03-01 12:05:42.697  INFO 7528 --- [http-nio-8080-exec-3] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-03-01 12:05:48.934  INFO 7528 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/blog/9', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.blog', args=[9, {}]}
+2023-03-01 12:05:48.998  INFO 7528 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Result : {}blog
+2023-03-01 12:05:49.341  INFO 7528 --- [http-nio-8080-exec-5] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-03-01 12:05:49.346  INFO 7528 --- [http-nio-8080-exec-5] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-03-01 12:05:57.292  INFO 7528 --- [http-nio-8080-exec-10] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/blog/11', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.blog', args=[11, {}]}
+2023-03-01 12:05:57.305  INFO 7528 --- [http-nio-8080-exec-10] com.wangw.aspect.LogAspect               : Result : {}blog
+2023-03-01 12:05:57.657  INFO 7528 --- [http-nio-8080-exec-6] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-03-01 12:05:57.661  INFO 7528 --- [http-nio-8080-exec-6] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-03-01 12:06:02.668  INFO 7528 --- [http-nio-8080-exec-2] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/blog/10', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.blog', args=[10, {}]}
+2023-03-01 12:06:02.682  INFO 7528 --- [http-nio-8080-exec-2] com.wangw.aspect.LogAspect               : Result : {}blog
+2023-03-01 12:06:03.089  INFO 7528 --- [http-nio-8080-exec-5] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-03-01 12:06:03.094  INFO 7528 --- [http-nio-8080-exec-5] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-03-01 12:06:03.139  INFO 7528 --- [http-nio-8080-exec-4] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/comments/10', ip='127.0.0.1', classMethod='com.wangw.web.CommentController.comments', args=[10, {}]}
+2023-03-01 12:06:03.171  INFO 7528 --- [http-nio-8080-exec-4] com.wangw.aspect.LogAspect               : Result : {}blog :: commentList
+2023-03-01 12:06:09.179  INFO 7528 --- [http-nio-8080-exec-3] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/blog/8', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.blog', args=[8, {}]}
+2023-03-01 12:06:09.190  INFO 7528 --- [http-nio-8080-exec-3] com.wangw.aspect.LogAspect               : Result : {}blog
+2023-03-01 12:06:09.506  INFO 7528 --- [http-nio-8080-exec-8] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-03-01 12:06:09.510  INFO 7528 --- [http-nio-8080-exec-8] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-03-01 12:06:12.757  INFO 7528 --- [http-nio-8080-exec-2] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/blog/7', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.blog', args=[7, {}]}
+2023-03-01 12:06:12.767  INFO 7528 --- [http-nio-8080-exec-2] com.wangw.aspect.LogAspect               : Result : {}blog
+2023-03-01 12:06:13.112  INFO 7528 --- [http-nio-8080-exec-4] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-03-01 12:06:13.118  INFO 7528 --- [http-nio-8080-exec-4] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-03-01 12:06:13.175  INFO 7528 --- [http-nio-8080-exec-5] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/comments/7', ip='127.0.0.1', classMethod='com.wangw.web.CommentController.comments', args=[7, {}]}
+2023-03-01 12:06:13.177  INFO 7528 --- [http-nio-8080-exec-5] com.wangw.aspect.LogAspect               : Result : {}blog :: commentList

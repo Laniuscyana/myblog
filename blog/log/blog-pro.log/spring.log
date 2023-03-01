@@ -1,0 +1,5 @@
+2023-01-17 14:03:07.987  INFO 19504 --- [restartedMain] com.wangw.BlogApplication                : Starting BlogApplication using Java 1.8.0_311 on LAPTOP-DINIIEAV with PID 19504 (F:\java\myblog\blog\target\classes started by Revail in F:\java\myblog\blog)
+2023-01-17 14:03:07.988  INFO 19504 --- [restartedMain] com.wangw.BlogApplication                : The following 1 profile is active: "pro"
+2023-01-17 14:03:09.976  WARN 19504 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-17 14:03:10.133  WARN 19504 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-01-17 14:03:10.251  INFO 19504 --- [restartedMain] com.wangw.BlogApplication                : Started BlogApplication in 2.567 seconds (JVM running for 3.523)

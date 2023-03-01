@@ -1,0 +1,61 @@
+2023-02-09 10:30:22.865  INFO 91152 --- [restartedMain] com.wangw.BlogApplication                : Starting BlogApplication using Java 1.8.0_311 on LAPTOP-DINIIEAV with PID 91152 (F:\java\myblog\blog\target\classes started by Revail in F:\java\myblog\blog)
+2023-02-09 10:30:22.869 DEBUG 91152 --- [restartedMain] com.wangw.BlogApplication                : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-02-09 10:30:22.870  INFO 91152 --- [restartedMain] com.wangw.BlogApplication                : The following 1 profile is active: "dev"
+2023-02-09 10:30:22.921  INFO 91152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-09 10:30:22.922  INFO 91152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-09 10:30:23.811  INFO 91152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-09 10:30:23.870  INFO 91152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2023-02-09 10:30:24.721  INFO 91152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-09 10:30:24.728  INFO 91152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-09 10:30:24.728  INFO 91152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-09 10:30:24.856  INFO 91152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-09 10:30:24.856  INFO 91152 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1933 ms
+2023-02-09 10:30:25.005  INFO 91152 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-09 10:30:25.049  INFO 91152 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-09 10:30:25.185  INFO 91152 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-09 10:30:25.277  INFO 91152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-09 10:30:25.912  INFO 91152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-09 10:30:25.929  INFO 91152 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-09 10:30:26.614  INFO 91152 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-09 10:30:26.622  INFO 91152 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-09 10:30:27.391  WARN 91152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-09 10:30:27.585  INFO 91152 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-09 10:30:27.893  INFO 91152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-09 10:30:27.923  INFO 91152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-09 10:30:27.930  INFO 91152 --- [restartedMain] com.wangw.BlogApplication                : Started BlogApplication in 5.435 seconds (JVM running for 6.501)
+2023-02-09 10:30:33.399  INFO 91152 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-09 10:30:33.399  INFO 91152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-09 10:30:33.400  INFO 91152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-09 10:30:33.453  INFO 91152 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2023-02-09 10:30:33.534  WARN 91152 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2023-02-09 10:30:33.543  WARN 91152 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2023-02-09 10:30:33.550  INFO 91152 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Result : {}index
+2023-02-09 10:30:34.783  INFO 91152 --- [http-nio-8080-exec-7] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-02-09 10:30:34.788  INFO 91152 --- [http-nio-8080-exec-7] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-02-09 10:30:35.948  INFO 91152 --- [http-nio-8080-exec-6] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.wangw.web.TypeShowController.types', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2023-02-09 10:30:35.963  INFO 91152 --- [http-nio-8080-exec-6] com.wangw.aspect.LogAspect               : Result : {}types
+2023-02-09 10:30:36.340  INFO 91152 --- [http-nio-8080-exec-8] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-02-09 10:30:36.345  INFO 91152 --- [http-nio-8080-exec-8] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-02-09 10:30:36.856  INFO 91152 --- [http-nio-8080-exec-4] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.wangw.web.TagShowController.tags', args=[Page request [number: 0, size 5, sort: updateTime: DESC], -1, {}]}
+2023-02-09 10:30:36.876  INFO 91152 --- [http-nio-8080-exec-4] com.wangw.aspect.LogAspect               : Result : {}tags
+2023-02-09 10:30:37.233  INFO 91152 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-02-09 10:30:37.237  INFO 91152 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-02-09 10:30:37.721  INFO 91152 --- [http-nio-8080-exec-5] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.wangw.web.ArchiveShowController.archives', args=[{}]}
+2023-02-09 10:30:37.741  INFO 91152 --- [http-nio-8080-exec-5] com.wangw.aspect.LogAspect               : Result : {}archives
+2023-02-09 10:30:38.069  INFO 91152 --- [http-nio-8080-exec-8] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-02-09 10:30:38.073  INFO 91152 --- [http-nio-8080-exec-8] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-02-09 15:14:40.005  INFO 91152 --- [http-nio-8080-exec-6] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2023-02-09 15:14:40.151  INFO 91152 --- [http-nio-8080-exec-6] com.wangw.aspect.LogAspect               : Result : {}index
+2023-02-09 15:14:40.672  INFO 91152 --- [http-nio-8080-exec-3] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-02-09 15:14:40.676  INFO 91152 --- [http-nio-8080-exec-3] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-02-09 15:14:43.428  INFO 91152 --- [http-nio-8080-exec-10] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.wangw.web.ArchiveShowController.archives', args=[{}]}
+2023-02-09 15:14:43.447  INFO 91152 --- [http-nio-8080-exec-10] com.wangw.aspect.LogAspect               : Result : {}archives
+2023-02-09 15:14:43.871  INFO 91152 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-02-09 15:14:43.876  INFO 91152 --- [http-nio-8080-exec-1] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-02-09 15:14:44.577  INFO 91152 --- [http-nio-8080-exec-7] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.wangw.web.AboutShowController.about', args=[{}]}
+2023-02-09 15:14:44.584  INFO 91152 --- [http-nio-8080-exec-7] com.wangw.aspect.LogAspect               : Result : {}about
+2023-02-09 15:14:45.040  INFO 91152 --- [http-nio-8080-exec-6] com.wangw.aspect.LogAspect               : Request : {url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.wangw.web.IndexController.newblogs', args=[{}]}
+2023-02-09 15:14:45.044  INFO 91152 --- [http-nio-8080-exec-6] com.wangw.aspect.LogAspect               : Result : {}_fragments :: newblogList
+2023-02-09 15:16:10.435  INFO 91152 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-09 15:16:10.442  INFO 91152 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-09 15:16:10.447  INFO 91152 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
